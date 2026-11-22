@@ -1,0 +1,48 @@
+{
+    "name": "webdevs-com-au/machship",
+    "description": "Laravel integration for the MachShip freight API: prices/routes, consignments, labels and manifests.",
+    "keywords": ["laravel", "machship", "freight", "shipping", "consignment", "labels"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.5",
+        "illuminate/console": "^12.0|^13.0",
+        "illuminate/contracts": "^12.0|^13.0",
+        "illuminate/filesystem": "^12.0|^13.0",
+        "illuminate/http": "^12.0|^13.0",
+        "illuminate/support": "^12.0|^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0|^11.0",
+        "phpunit/phpunit": "^11.5|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebdevsComAu\\MachShip\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WebdevsComAu\\MachShip\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WebdevsComAu\\MachShip\\MachShipServiceProvider"
+            ],
+            "aliases": {
+                "MachShip": "WebdevsComAu\\MachShip\\Facades\\MachShip"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

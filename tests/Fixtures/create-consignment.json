@@ -1,0 +1,17 @@
+{
+  "object": {
+    "id": 123456,
+    "consignmentNumber": "MS00123456",
+    "carrierConsignmentId": "ABC000123456",
+    "status": {"id": 2, "name": "Unmanifested", "description": "Unmanifested"},
+    "trackingPageAccessToken": "abc123",
+    "consignmentTotal": {"totalSellPrice": 18.2},
+    "despatchDateLocal": "2026-11-24T09:00:00",
+    "etaLocal": "2026-11-27T17:00:00",
+    "carrier": {"id": 11, "name": "Road Freight A", "abbreviation": "RFA", "displayName": "Road Freight A"},
+    "carrierService": {"id": 101, "name": "Road", "abbreviation": "RD", "displayName": "Road Express"},
+    "isTest": true,
+    "items": [{"itemType": 1, "name": "Widgets", "quantity": 2, "height": 15, "weight": 5, "length": 30, "width": 20}]
+  },
+  "errors": []
+}

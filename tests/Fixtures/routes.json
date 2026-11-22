@@ -1,0 +1,25 @@
+{
+  "object": {
+    "id": "b3f1a7f0-0000-0000-0000-000000000000",
+    "routeRequestId": "b3f1a7f0-0000-0000-0000-000000000000",
+    "routes": [
+      {
+        "carrier": {"id": 22, "name": "Courier B", "abbreviation": "CB", "displayName": "Courier B"},
+        "carrierService": {"id": 501, "name": "Express", "abbreviation": "EXP", "displayName": "Express"},
+        "carrierAccount": {"id": 9001, "name": "Main", "accountCode": "ACC1"},
+        "companyCarrierAccountId": 333,
+        "consignmentTotal": {"totalSellPrice": 42.5, "totalSellBeforeTax": 38.64, "totalCostPrice": 30.0},
+        "despatchOptions": [{"despatchDateLocal": "2026-11-24T09:00:00", "despatchDateUtc": "2026-11-23T22:00:00Z", "etaLocal": "2026-11-25T17:00:00", "etaUtc": "2026-11-25T06:00:00Z", "totalBusinessDays": 1}]
+      },
+      {
+        "carrier": {"id": 11, "name": "Road Freight A", "abbreviation": "RFA", "displayName": "Road Freight A"},
+        "carrierService": {"id": 101, "name": "Road", "abbreviation": "RD", "displayName": "Road Express"},
+        "carrierAccount": {"id": 8001, "name": "Main", "accountCode": "ACC2"},
+        "companyCarrierAccountId": 222,
+        "consignmentTotal": {"totalSellPrice": 18.2, "totalSellBeforeTax": 16.55, "totalCostPrice": 12.0},
+        "despatchOptions": [{"despatchDateLocal": "2026-11-24T09:00:00", "despatchDateUtc": "2026-11-23T22:00:00Z", "etaLocal": "2026-11-27T17:00:00", "etaUtc": "2026-11-27T06:00:00Z", "totalBusinessDays": 3}]
+      }
+    ]
+  },
+  "errors": []
+}
