@@ -248,7 +248,7 @@ docker run --rm -v "$PWD":/app -w /app composer:2 sh -c "composer install && ven
 
 ## CI and releases
 
-- **Tests** (`.github/workflows/tests.yml`) run on pushes to `main` and on pull requests. They cover PHP 8.2–8.5 with Laravel 12 and 13, each with both lowest and latest dependencies, and also run `composer validate --strict`.
+- **Tests** (`.github/workflows/tests.yml`) run on pushes to `main` and on pull requests. They cover PHP 8.2–8.6 with Laravel 12 and 13, each with both lowest and latest dependencies, and also run `composer validate --strict`.
 - **Release** (`.github/workflows/release.yml`) runs when you push a semver tag. It runs the full test suite, creates a GitHub Release with generated notes (tags like `v1.1.0-beta.1` are marked as pre-releases), then tells Packagist to update.
 
 ```bash
